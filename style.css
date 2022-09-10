@@ -86,8 +86,8 @@ section{
     height: 100vh;
     width: 100%;
     position: relative;
-    /* background: url();  image */
-    /* background-size: cover;
+    /* background: url(img/my1.jpg);
+    background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
@@ -187,8 +187,8 @@ font-weight: 600;
 
 .about-img{
     height: auto;
-    width: 100%;
-    max-width: 460px;
+    /* width: 10px; */
+    /* max-width: 4px; */
 }
 
 /* -----------------
