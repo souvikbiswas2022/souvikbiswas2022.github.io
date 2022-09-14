@@ -615,6 +615,16 @@ border-radius: 00.5rem;
         padding: 130px 3% 60px;
     }
 
+   .box2{
+    height: auto;
+    padding: 3%;
+   }
+
+   .box2>img{
+    width: 12%;
+
+   }
+
 }
 
 @media (max-width:970px){
