@@ -34,6 +34,8 @@ sr.reveal(".home-text",{delay:190,origin:"bottom"})
 
 sr.reveal(".about,.services,.portfolio,.contact",{delay:200,origin:"bottom"})
 
+sr.reveal(".service2,.box2,.service,portfolio-content",{delay:150,origin:"bottom"})
+
 
 
 

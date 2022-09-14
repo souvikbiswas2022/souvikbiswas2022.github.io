@@ -144,6 +144,13 @@ transition: all .40s ease;
     border:1px solid var(--main-color);
 }
 
+
+
+
+
+
+
+
 header.sticky{
     padding: 10px 16%;
     background: var(--bg-color);
@@ -367,12 +374,14 @@ line-height: 30px;
 /* -------services2-------------- */
 .service-content2{
    
-    display: inline-block;
+    display: block;
     grid-template-columns: repeat(auto-fit,minmax(250px,auto));
     align-items: center;
     text-align: center;
     gap: 2rem;
     margin-top: 5rem;
+   
+    /* margin: auto; */
  }
  
  .box2 img{
@@ -384,14 +393,15 @@ line-height: 30px;
  
  .box2{
      padding: 2% 45px;
-     /* padding-top: 1%; */
+    
  
      width: auto;
-     height: 170px;
+     height: auto;
+   
      margin-bottom: 20px;
  
      background: #12141c;
-     /* border-radius: 5rem; */
+    
      border-top: 5px solid transparent;
      transition: all .40s ease;
      cursor: pointer;
@@ -569,9 +579,7 @@ font-size: 21px;
     background: var(--main-color);
 }
 
-/* .contact-form{
-stopped
-} */
+
 
 .last-text{
     text-align: center;
@@ -714,142 +722,3 @@ section{
 } 
 
 
-/* @media (max-width:400px){
-    :root{
-        --h1-font:4.2rem;
-        --h2-font:2.9rem;
-        --p-font:1rem;
-    
-    }
-    
-    section{
-        padding: 70px 3% 60px;
-        border: 1px solid red;
-        width:300px;
-    }
-    .home{
-        height: 85vh;
-    }
-    .about{
-        grid-template-columns: 1fr;
-    }
-    .about-img{
-        text-align: center;
-    }
-    .contact{
-        grid-template-columns: 1fr;
-    }
-    
-    } */
-
-
-
-
-
-
-
-/* @media all and (min-width:200px) and (max-width:450px){
-
-
-    #menu-icon{
-        display: block;
-    }
-    .navbar{
-        position: absolute;
-        top: -600px;
-        right: 0;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        background: #12141c;
-        text-align: left;
-        transition: all .40s ease;
-    }
-    
-    .navbar a{
-    
-        display: block;
-        padding: 1rem;
-        margin: 1rem;
-    }
-    
-    .navbar.active{
-        top: 100%;
-    
-    
-    }
-    
-    :root{
-        --h1-font:3.7rem;
-        --h2-font:2.7rem;
-       
-    
-    }
-
-    section{
-        padding: 70px 4% 65px;
-        width: 55vh;
-    }
-    .home{
-        height: 85vh;
-    }
-    .about{
-        grid-template-columns: 1fr;
-    }
-    .about-img{
-   
-        text-align: center;
-    }
-    .contact{
-        grid-template-columns: 1fr;
-    }
-.about-text{
-     border: 1px solid red; 
-    width: 140%;
-}
-
-.service{
-  margin:0 1.6rem;
-
-
-}
-
-.main-text h2,h4{
-    margin-left: 60px;
-}
-
-.service-content{
-    
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-    
-}
-.box{
-
-width: 150px;
-}
-
-
-.portfolio{
-   
-    margin: auto;
-    width:99%;
-}
-
- #portfolio-text>h4{
-    text-align: center;
-    margin: 0px -2%;
-} 
-
-#portfolio-text>h2{
-    text-align: center;
-    margin: 0px -2%;
-}
-
-} */
-
-/* @media all and (min-width:451px) and (max-width:750px){
-
-    
-}  */
