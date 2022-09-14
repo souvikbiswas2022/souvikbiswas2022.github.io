@@ -364,6 +364,67 @@ line-height: 30px;
     color: var(--main-color);
 }
 
+/* -------services2-------------- */
+.service-content2{
+   
+    display: inline-block;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 5rem;
+ }
+ 
+ .box2 img{
+     width: 5%;
+ }
+ 
+ 
+ 
+ 
+ .box2{
+     padding: 2% 45px;
+     /* padding-top: 1%; */
+ 
+     width: auto;
+     height: 170px;
+     margin-bottom: 20px;
+ 
+     background: #12141c;
+     /* border-radius: 5rem; */
+     border-top: 5px solid transparent;
+     transition: all .40s ease;
+     cursor: pointer;
+ }
+ 
+ .box2 h3{
+     font-size: 16px;
+     font-weight: 600;
+     margin: 10px 0;
+     transition: all .40s ease;
+ }
+ 
+ .box2 p{
+ 
+ color: var(--second-color);
+ font-size: 15px;
+ line-height: 25px;
+ 
+ }
+ 
+ .box2:hover{
+ 
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid var(--main-color); 
+ }
+ 
+ .box2 :hover h3{
+     color: var(--main-color);
+ }
+/* ------------------- */
+
+
+
 /* portfolio --------------------------------------------*/
 
 .portfolio-content{
