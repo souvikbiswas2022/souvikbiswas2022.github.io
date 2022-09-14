@@ -617,11 +617,11 @@ border-radius: 00.5rem;
 
    .box2{
     height: auto;
-    padding: 3%;
+    padding: 2%;
    }
 
    .box2>img{
-    width: 12%;
+    width: 4%;
 
    }
 
@@ -650,6 +650,16 @@ section{
 .contact{
     grid-template-columns: 1fr;
 }
+
+.box2{
+    height: auto;
+    padding: 2%;
+   }
+
+   .box2>img{
+    width: 4%;
+
+   }
 
 }
 
@@ -690,6 +700,16 @@ section{
    
 
 }
+
+.box2{
+    height: auto;
+    padding: 3%;
+   }
+
+   .box2>img{
+    width: 10%;
+
+   }
 
 } 
 
