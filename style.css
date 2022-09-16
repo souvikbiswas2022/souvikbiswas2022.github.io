@@ -519,7 +519,7 @@ font-size: 21px;
   
 
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
     align-items: center;
     text-align: center;
     gap: 2rem;
@@ -564,7 +564,16 @@ font-size: 21px;
 .calendar{
     width: 100%;
 }
+#git-stat{
+    margin-top: -10%;
+}
 
+
+#git-text>h4{
+  
+    margin-bottom: 1rem;
+    color:var(--main-color);
+}
 
 /* ---------contact-------- */
 .contact{
