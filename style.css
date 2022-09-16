@@ -561,7 +561,9 @@ font-size: 21px;
 
 } 
 
-
+.calendar{
+    width: 100%;
+}
 
 
 /* ---------contact-------- */
