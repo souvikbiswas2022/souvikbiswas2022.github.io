@@ -578,7 +578,8 @@ font-size: 21px;
     margin-top: 3%;
 }
 #git_streak img{
-   margin: auto;
+    margin: auto;
+   width: auto;
 }
 
 
@@ -714,6 +715,11 @@ border-radius: 00.5rem;
 
    }
 
+   #git_streak img{
+     width: auto;
+   }
+
+
 }
 
 @media (max-width:970px){
@@ -750,6 +756,9 @@ section{
 
    }
 
+   #git_streak img{
+    width: 60%;
+   }
 }
 
  @media (max-width:830px){
@@ -804,6 +813,10 @@ section{
 
    }
 
+
+   #git_streak img{
+    width: 60%;
+   }
 } 
 
 
