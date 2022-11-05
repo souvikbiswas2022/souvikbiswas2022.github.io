@@ -771,7 +771,7 @@ section{
 #menu-icon{
     display: block;
 }
-.navbar{
+ .navbar{
     position: absolute;
     top: -600px;
     right: 0;
@@ -786,15 +786,15 @@ section{
 .navbar a{
 
     display: block;
-    padding: 1rem;
+    padding: .7rem;
     margin: 1rem;
-}
+} 
 
 .navbar.active{
     top: 100%;
 
 
-}
+} 
 
 :root{
     --h1-font:3.7rem;
