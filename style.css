@@ -575,7 +575,7 @@ font-size: 21px;
 #git_streak{
     display: flex;
     width: 100%;
-    margin-top: 3%;
+    margin-top: -3%;
 }
 #git_streak img{
    margin: auto;
