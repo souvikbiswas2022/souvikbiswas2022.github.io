@@ -786,8 +786,8 @@ section{
 .navbar a{
 
     display: block;
-    padding: .6rem;
-    margin: .4rem;
+    padding: .4rem;
+    margin: .3rem;
 } 
 
 .navbar.active{
