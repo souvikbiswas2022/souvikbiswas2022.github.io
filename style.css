@@ -206,29 +206,12 @@ font-size: 22px;
 font-weight: 600;
 }
 
-/* .about-img{
-    height: auto;
-    width: 10px; 
-     max-width: 4px; 
-} */
-
 .about-img>img{
     height: auto;
     width: 70%; 
     border-radius: 10% 0;
     
 }
-
-/* #text-color{
-    color: var(--text-color);
-}
-.home-text h3{
-    color: var(--main-color);
-
-} */
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-
 
 .tab-titles{
 
@@ -260,17 +243,13 @@ font-weight: 600;
 }
 
 .tab-links.active-link ::after{
-
  width: 50%;
-
  }
 
  .tab-contents ul li{
 
    list-style: none;
    margin: 10px 0;
-   
-
  }
 
  .tab-contents ul li span {
@@ -294,17 +273,6 @@ font-weight: 600;
     color: var(--main-color);
 }
 
-
-
-
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-
-
-/* -----------------
------------------ */
-
 .main-text{
     text-align: center;
 }
@@ -320,7 +288,6 @@ font-weight: 600;
 }
 
 .service-content{
-   
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
    align-items: center;
@@ -337,7 +304,6 @@ font-weight: 600;
 
 
 .box{
-    /* padding: 45px; */
     padding-top: 4%;
 
     width: 90%;
@@ -716,13 +682,11 @@ border-radius: 00.5rem;
 
    .box2>img{
     width: 4%;
-
    }
 
    #git_streak img{
      width: auto;
    }
-
 
 }
 
