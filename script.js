@@ -1,11 +1,9 @@
 
-const header=document.querySelector("header");
+// const header=document.querySelector("header");
 
-window.addEventListener("scroll",function(){
-    header.classList.toggle("sticky",window.scrollY>0);
-})
-
-
+// window.addEventListener("scroll",function(){
+//     header.classList.toggle("sticky",window.scrollY>0);
+// })
 
 
 
@@ -30,11 +28,11 @@ const sr=ScrollReveal({
     reset:true
 })
 
-sr.reveal(".home-text",{delay:190,origin:"bottom"})
+sr.reveal(".home-text",{delay:150,origin:"bottom"})
 
-sr.reveal(".about,.services,.portfolio,.contact",{delay:200,origin:"bottom"})
+sr.reveal(".about,.services,.portfolio,.contact",{delay:90,origin:"bottom"})
 
-sr.reveal(".service2,.box2,.service,.portfolio-content,.item",{delay:150,origin:"bottom"})
+sr.reveal(".service2,.box2,.service,.portfolio-content,.item",{delay:90,origin:"bottom"})
 
 
 
